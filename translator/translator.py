@@ -1,6 +1,6 @@
 import time
 from deep_translator import GoogleTranslator
-from PyPDF2 import PdfReader, PdfFileWriter
+from PyPDF2 import PdfReader
 
 translator = GoogleTranslator(target="uk")
 book = input("Path to book: ")
